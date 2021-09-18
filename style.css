@@ -126,7 +126,7 @@
       border: 2px solid var(--color-light-white);
   }
   .home__title, .home__description{
-      color: var(--color-dark-grey);
+      color: var(--color-dark-blue);
   }
 
   .home__contact{
@@ -135,6 +135,6 @@
       font-weight: var(--weight-bold);
       margin: 24px;
       padding: 8px 12px;
-      border: 2px solid var(--color-dark-grey);
+      border: 2px solid var(--color-dark-blue);
       border-radius: var(--size-border-radius);
   }
