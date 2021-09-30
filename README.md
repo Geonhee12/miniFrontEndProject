@@ -4,3 +4,4 @@
 * 09.15 html 작업 및 navBar css 작성
 * 09.18 브랜치 나누기 (css브랜치로 함)
 * 09.19 About me 편집
+* 09.30 CSS - Skills 편집
