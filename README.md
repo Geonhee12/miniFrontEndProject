@@ -7,3 +7,4 @@
 * 09.30 CSS - Skills & Work 편집
 * 10.21 CSS - 마무리 및 반응형 작업
 * 10.21 CSS 브랜치 삭제 및 병합
+* 10.22 JS - navbar top 고정
