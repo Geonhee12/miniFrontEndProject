@@ -49,6 +49,7 @@
   ul{
       list-style: none;
       padding-left: 0;
+      margin: 8px 0;
   }
   h1 {
     font-size: var(--font-large);
@@ -89,10 +90,13 @@
   /*navbar*/
   #navbar {
       display: flex;
+      width: 100%;
       justify-content: space-between;
-      background-color: var(--color-blue);
+      position: fixed;
       align-items: center;
+      padding: 16px;
       color: var(--color-white);
+      transition: all var(--animation-duration) ease-in-out;
   }
   .navBar__menu {
     display: flex;
@@ -125,10 +129,15 @@
       display: none;
 
   }
+  #navbar.navBar--dark{
+      background-color: var(--color-blue);
+      padding: 8px;
+  }
   /* Home */
   #home {
       background: url("images/home-background.png") center/cover no-repeat;
       padding: 40px;
+      padding-top: 100px;
       text-align: center;
   }
   .home__avatar{
@@ -448,3 +457,5 @@
     }
 }
     
+
+
